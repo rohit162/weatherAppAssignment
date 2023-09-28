@@ -1,0 +1,98 @@
+<h2>Weather in ${data.name}, ${data.sys.country}</h2>
+        <p>Temperature: ${temperature} °${unitSelector.options[unitSelector.selectedIndex].text}</p>
+        <p>Humidity: ${humidity}%</p>
+        <p>Wind Speed: ${windSpeed} m/s</p>
+        <p>Description: ${description}</p>
+    
+    
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* body{
+      
+      background-image: url('images\bckImg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10vh;
+        width: 200px;
+  } */
+  .whBody{
+    background-image: url('images\bckImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    /* width: 200px; */ 
+  }
+  .card{
+    justify-content: center;
+  }
+  .navc{
+    margin-bottom: 2rem;
+  }
+  .container{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    column-gap: 5%;
+    justify-content: space-around;
+    align-items: center;
+}
+.weatherBox{
+    width: 60%;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid blueviolet; */
+}
+.sliderImg{
+    width: 60%;
+}
+.drp{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blueviolet; */
+    border-radius: 1rem;
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.5); */
+    margin: 2rem;
+}
+.loc{
+    /* width: 70%; !important */
+    height: 100%;
+    /* border: 1px solid blueviolet; */
+    border-radius: 1rem;
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.5); */
+    margin: 2rem;
+}
+.wtBtn{
+   margin: 2rem;; 
+}
+.weather{
+    justify-items: center;
+    align-items: center;
+    margin: 2rem;
+    
+}
+  /* .imageBox{ */
+    /* display: inline-flex; */
+    /* direction: column; */
+    /* display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+    flex-wrap: wrap;
+    column-gap: 1.5rem; */
+    /* align-items: center; */
+    /* align-self: flex-end; */
+  /* }
+  .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    margin: 2rem;
+  } */
+
